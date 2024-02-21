@@ -4,7 +4,7 @@ class Calculator
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("1->Addition\n2->Subtraction\n3->Multiplication\n4->Division");
+        Console.WriteLine("1->Addition\n2->Subtraction\n3->Multiplication\n4->Division ");
         Console.Write("\nEnter ur choice : ");
         int choice = Convert.ToInt32(Console.ReadLine());
         switch (choice)
